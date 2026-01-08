@@ -1,0 +1,18 @@
+.steps-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-8);
+}
+
+.step-card {
+    padding: var(--space-6);
+    border-top: 2px solid var(--color-border);
+}
+
+.step-number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--color-border);
+    line-height: 1;
+    margin-bottom: var(--space-4);
+}
